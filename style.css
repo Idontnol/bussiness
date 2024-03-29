@@ -1,0 +1,310 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:69%;
+    font-family:"Poppins";
+}
+.navbar-icon{
+    height:65px;
+    width:164px;
+    object-fit: contain;
+}
+.navbar-button{
+    color:#ffffff;
+    background-color:#706FE5;
+    height:36px;
+    width:120px;
+    border-radius:12px;
+    border-width:0px;
+    outline:none;
+    font-weight:580;
+    letter-spacing:0.6px;
+    font-size:14px;
+    cursor:pointer;
+}
+.search-button{
+    color:#ffffff;
+    background-color:#706FE5;
+    height:40px;
+    width:120px;
+    border-radius:12px;
+    border-width:0px;
+    outline:none;
+    font-size:14px;
+    font-weight:580;
+    letter-spacing:0.6px;
+    cursor:pointer;
+}
+.dashboard-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.dashboard-search-container{
+    background: #F9FAFB;
+    border-radius:11px;
+    display:flex;
+    align-items:center;
+    width:36%;
+    padding-left:5px;
+}
+.dashboard-search{
+    width:70%;
+    height:30px;
+    border:none;
+    background: #F9FAFB;
+    padding:10px;
+    color:#737791;
+    outline:none;
+    font-size:18px;
+}
+.ontainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.user-referrals{
+    border: dashed 1px black;
+    display:flex;
+    justify-content:space-around;
+    width:80%;
+}
+.user-referrals-values{
+    color: #4776E6;
+}
+.refer-friends{
+    font-weight:900;
+    font-family:'Yantramanav';
+    font-size:24px;
+    /* margin-top:10px;
+    margin-bottom:5px; */
+}
+.refer-way-container{
+    display:flex;
+    justify-content:center;
+    font-family:'Yantramanav';
+    width:100vw;
+}
+.way-left{
+    width:56%;
+}
+.way-left h3{
+    font-family:'Yantramanav';
+    color:#49596D;
+}
+.way-left> p{
+    letter-spacing:0.6px;
+}
+.in1{
+    width:68%;
+    
+}
+.way-right{
+    width:30%;
+}
+.refer-way-container p{
+    font-family:'Yantramanav';
+    font-weight:780;
+    letter-spacing:0.7px;
+    font-size:16px;
+}
+.refer-input{
+    border-radius:24px;
+    padding:10px;
+    padding-left:17px ;
+    border-color:#888888 !important;
+}
+.dashboard-profile{
+    width:172px;
+    height:57px;
+    object-fit:contain;
+    cursor:pointer;
+}
+.dashboard-header{
+    font-family:"Poppins";
+    font-weight:600;
+}
+.copyBtn{
+    background: linear-gradient(323.76deg, #4776E6 10%, #8E54E9 100%);
+    border-radius:12px;
+    border-width:0px;
+    outline:none;
+    font-weight:540;
+    color:white;
+    padding:3px 8px;
+    cursor:pointer;
+}
+.detail-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.detail-card{
+    display:flex;
+    align-items:center;
+    color:#ffffff;
+    justify-content:space-around;
+    width:23%;
+    background: linear-gradient(322.23deg, #4776E6 10%, #8E54E9 100%);
+    border-radius:6px;
+    margin:10px 0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.2s ease-in-out; 
+}
+.detail-card:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    cursor:pointer;
+  }
+.detail-card div{
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    /* margin-left:3%; */
+}
+.detail-card >div:nth-child(1){
+    margin-bottom:6px;
+}
+.direc{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:6px;
+}
+.copy-icon{
+    height:12px;
+    width:12px;
+    object-fit:contain;
+}
+footer{
+    display:flex;
+    justify-content:space-evenly;
+    width:100vw;
+    font-size:17px;
+    margin-top:14px;
+}
+footer div{
+    display:flex;
+    flex-direction:column;
+    font-family:"Inter";
+}
+footer div h3{
+    color:#111928;
+    font-family:"Inter";
+    font-size:16px;
+}
+footer div p{
+    font-size:15px;
+    color:#6B7280;
+}
+.contact-details{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.contact-links{
+    display:flex;
+    width:15%;
+    justify-content:space-evenly;
+    text-decoration:none;
+    align-items:center;
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 20px auto; 
+  }
+.styled-table thead th {
+    background-color: #f0f0f0; 
+    padding: 10px;
+    text-align: left;
+    color:white;
+    background: linear-gradient(278.75deg, #4776E6 10%, #8E54E9 100%);
+}
+.styled-table tbody td {
+    border-bottom: 1px solid #ddd; 
+    padding: 10px; 
+    font-family:"Poppins";
+}
+.pagination-container {
+    display: flex; 
+    justify-content: space-between; /* Distributes space evenly between items */
+    align-items: center; /* Aligns vertically */
+    width: 80%; 
+    margin: 0 auto;
+    font-family: "Poppins";
+  }
+  
+  .page-info {
+    font-size: 1rem;
+    color:  #49596D;
+    font-family: "Poppins";
+    margin: 0 10px; 
+  }
+  
+  .track-tabledata {
+    display: flex; 
+    
+  }
+  
+  .track-tabledata span {
+    padding: 5px 10px; /* Adjust padding for desired spacing */
+    color:#4776E6;
+    border-radius:4px;
+    border: 1px solid #4776E6; /* Adds a border around each element */
+    cursor: pointer; /* Sets cursor to 'pointer' on hover */
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+    margin-right: 5px;
+  }
+  
+  .track-tabledata span:hover {
+    background-color: #eee; /* Background color on hover */
+    color: #333; /* Text color on hover */
+  }
+  
+  .page.active {
+    background: linear-gradient(337.76deg, #4776E6 10%, #8E54E9 100%);
+    cursor: default; 
+    color:white !important;
+  }
+  
+  .previous.disabled,
+  .next.disabled {
+    opacity: 0.5; 
+    cursor: default; 
+  }
+.mobile-menu{
+    display:none;
+}
+@media (max-width: 750px) {
+    .navbar-menu{
+        display:none;
+    }
+    .mobile-menu{
+        display:inline;
+        height:26px;
+        width:26px;
+        cursor: pointer;
+    }
+    .detail-card{
+        width:32%;
+        
+    }
+    footer{
+        flex-direction:column;
+        padding-left:7%;
+    }
+    footer p{
+        margin: 3px;
+    }
+}

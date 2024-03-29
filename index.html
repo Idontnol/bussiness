@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Business</title>
+    <link rel="icon" type="image/x-icon"  href="./assets/go-business.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+    <!-- navbar section -->
+    <navbar class="navbar-container">
+        <img src="./assets/options.png" alt="mobile-options"  class="mobile-menu" />
+        <img src="./assets/go-business.png" class="navbar-icon" alt="goo-icon" />
+        <ul class="navbar-menu">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Courses</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+        <button class="navbar-button">Try for free</button>
+    </navbar>
+
+    <!-- dashboard section-->
+    <div class="dashboard-container">
+        <h1 class="dashboard-header">Referral Dashboard</h1>
+        <div class="dashboard-search-container">
+            <img src="./assets/magnifier.png" />
+            <input placeholder="search here..." class="dashboard-search"></input>
+        </div>
+        <button class="search-button">Search</button>
+        <img src="./assets/menu.png" alt="profile" class="dashboard-profile" />
+    </div>
+    <div class="main-container">
+        <div class="detail-cards">
+            <!-- <div class="detail-card">
+                <img src="./assets/percentage.png" alt="percenatge" class="" />
+                <div class="">
+                    <p class="">$465.00</p>
+                    <p class="">Commission Amount</p>
+                </div>
+            </div> -->
+        </div>
+        <span class="ontainer">
+        <div class="user-referrals">
+            <span>
+                <p class="">Service</p>
+                <p class="user-referrals-values">Some service</p>
+            </span>
+            <span>
+                <p class="">Your Referrals</p>
+                <p class="user-referrals-values">0 + 0</p>
+            </span>
+            <span>
+                <p class="">Active Referrals</p>
+                <p class="user-referrals-values">0 + 0</p>
+            </span>
+            <span>
+                <p class="">Total Ref. Earnings</p>
+                <p class="user-referrals-values">$0.00</p>
+            </span>
+        </div>
+        <p class="refer-friends">Refer Friends And Earn More !!</p>
+        <hr width="50%" />
+
+        <!-- referal section -->
+        <div class="refer-way-container">
+            <div class="way-left">
+                <p color="#49596D">Your Referral Link</p>
+                <div class="direc">
+                    <input placeholder="https://gobusiness.com/?refferal=ABCXYZ" type="text" class="refer-input in1" />
+                    <button class="copyBtn"><img src="./assets/copy.png" alt="copy" class="copy-icon" />copy</button>
+                </div>
+            </div>
+            <div class="way-right">
+                <p color="#49596D">Your Referral Code</p>
+                <div class="direc">
+                    <input placeholder="ABCXYZ" class="refer-input in2" type="text"  />
+                    <button class="copyBtn"><img src="./assets/copy.png" alt="copy" class="copy-icon" />copy</button>
+                </div>
+            </div>
+        </div>
+        </span>
+        <div class="user-details">
+            <div class="">
+                <span></span>
+
+            </div>
+
+            <!-- table -->
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Service name</th>
+                      <th>Date</th>
+                      <th>Profit</th>
+                    </tr>
+                  </thead>
+                  <tbody id="data-body">
+
+                  </tbody>
+            </table>
+
+            <!-- pagination -->
+            <div class="pagination-container">
+                <p class="page-info">Showing 1 to 10 of 57 entries</p>
+                <div class="track-tabledata">
+                  <span class="previous disabled">Previous</span>
+                  <span class="page active">1</span>
+                  <span class="page">2</span>
+                  <span class="page">3</span>
+                  <span class="page">4</span>
+                  <span class="page">5</span>
+                  <span class="page">6</span>
+                  <span class="next">Next</span>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <footer class="">
+        <div class="section1">
+            <h3>COMPANY</h3>
+            <p>About</p>
+            <p>Premium</p>
+            <p>Blog</p>
+            <p>Referral Program</p>
+        </div>
+        <div class="section2">
+            <h3>HELP AND SUPPORT</h3>
+            <p>Contact Us</p>
+            <p>Knowledge center</p>
+            <p>Premium Support</p>
+        </div>
+        <div class="section3">
+            <h3>LEARNING</h3>
+            <p>Learn Hub</p>
+            <p>Tutorials</p>
+            <p>Communities</p>
+        </div>
+        <div class="section4">
+            <h3>RESOURCES</h3>
+            <p>Third-Party Tools</p>
+            <p>Illustrations</p>
+            <p>Stock Photos</p>
+        </div>
+        <div class="section5">
+            <h3>LEGAL</h3>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>EULA</p>
+        </div>
+    </footer>
+    <div class="contact-details">
+        <img src="./assets/go-business.png" alt="go-business" class="navbar-icon" />
+        <p class="">© 2024 Go Business, Inc. All rights reserved.</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile">
+                <img src="./assets/linkedin.png" alt="linkedin" class="" />
+            </a>
+            <a href="https://www.facebook.com/your-facebook-profile">
+                <img src="./assets/facebook.png" alt="facebook" class="" />
+            </a>
+            <a href="https://www.instagram.com/your-instagram-profile">
+                <img src="./assets/instagram.png" alt="instagram" class="" />
+            </a>                        
+        </div>
+    </div>
+    <script src="index.js"></script> 
+</body>
+
+</html>
